@@ -1349,7 +1349,7 @@ button {
     height: 100%;
     background: -webkit-gradient( linear, left top, right top, from(rgb(233, 86, 86)), to(rgb(0,208,156)));
     background: -o-linear-gradient( left, rgb(245, 52, 52) 0%, rgb(0,208,156) 50%);
-    background: linear-gradient( 90deg, rgb(241, 40, 40) 0%, rgb(0,208,156) 50%);
+    background: linear-gradient( 90deg, rgb(241, 40, 40) 0%, rgb(0,208,156) 10%);
     opacity: 0.102;
     z-index: -1;
 }
