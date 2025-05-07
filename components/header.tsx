@@ -26,7 +26,7 @@ export default function Header({ activeCategory, onCategoryChange }: HeaderProps
           support@waywisetech.com
         </a>
       </div>
-      <div className="w-full md:max-w-4xl py-2 md:py-5">
+      <div className="w-full md:max-w-max py-2 md:py-5">
         <CategoryNav
           activeCategory={activeCategory}
           onCategoryChange={onCategoryChange}

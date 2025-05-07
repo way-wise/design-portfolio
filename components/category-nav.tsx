@@ -4,9 +4,9 @@ import { cn } from "@/lib/utils"
 
 const categories = [
   { id: "apps-design", label: "Apps Design" },
-  { id: "mobile", label: "Mobile App" },
-  { id: "frontend", label: "Frontend" },
-  { id: "nocode", label: "No Code Solutions" },
+  { id: "web-design", label: "Web Design" },
+  { id: "branding", label: "Branding" },
+  { id: "email-template", label: "Email Template" },
 ]
 
 interface CategoryNavProps {
@@ -17,23 +17,21 @@ interface CategoryNavProps {
 export default function CategoryNav({ activeCategory, onCategoryChange }: CategoryNavProps) {
   const getCategoryGradient = (category: string) => {
     switch (category) {
-      case "backend":
+      case "apps-design":
         return "from-emerald-400 to-teal-600"
-      case "mobile":
+      case "web-design":
         return "from-purple-400 to-indigo-600"
-      case "frontend":
+      case "branding":
         return "from-rose-400 to-pink-600"
-      case "nocode":
+      case "email-template":
         return "from-amber-400 to-orange-600"
-      case "api":
-        return "from-cyan-400 to-blue-600"
       default:
         return "from-gray-700 to-gray-900"
     }
   }
 
   return (
-    <div className="flex flex-wrap justify-center gap-3">
+    <div className="flex flex-wrap md:flex-nowrap justify-center md:justify-end gap-3">
       {categories.map((category) => (
         <button
           key={category.id}
