@@ -16,7 +16,7 @@ export interface PortfolioItem {
 
 export const portfolioItems: PortfolioItem[] = [
   {
-    "id": "apps-design", 
+    "id": "apps-design-1", 
     "title": "Financial Apps UI/UX Design", 
     "description": "A sleek and intuitive UI/UX design crafted for a financial application, focusing on user-friendly data visualization, account management, and real-time insights.", 
     "category": "apps-design",
@@ -34,7 +34,7 @@ export const portfolioItems: PortfolioItem[] = [
     ]
   },
   {
-    "id": "apps-design", 
+    "id": "apps-design-2", 
     "title": "iBanking Apps UI/UX Design", 
     "description": "An intuitive iBanking UI/UX for seamless account management, secure transactions, and clear financial insights.", 
     "category": "apps-design",
@@ -52,7 +52,7 @@ export const portfolioItems: PortfolioItem[] = [
     ]
   },
   {
-    "id": "apps-design", 
+    "id": "apps-design-3", 
     "title": "Fitness Apps UI/UX Design", 
     "description": "An intuitive UI/UX design for a fitness app focused on workout tracking, progress insights, and user-friendly navigation.", 
     "category": "apps-design",
@@ -70,7 +70,7 @@ export const portfolioItems: PortfolioItem[] = [
     ]
   },
   {
-    "id": "apps-design", 
+    "id": "apps-design-4", 
     "title": "E-commerce Apps UI/UX Design", 
     "description": "Clean and modern UI/UX for an e-commerce app, ensuring smooth browsing, easy checkout, and personalized shopping experience.", 
     "category": "apps-design",
@@ -88,7 +88,7 @@ export const portfolioItems: PortfolioItem[] = [
     ]
   },
   {
-    "id": "apps-design", 
+    "id": "apps-design-5", 
     "title": "Finance Apps UI/UX Design", 
     "description": "Sleek UI/UX for a financial app with clear visuals, easy account management, and real-time insights.", 
     "category": "apps-design",
@@ -106,7 +106,7 @@ export const portfolioItems: PortfolioItem[] = [
     ]
   },
   {
-    "id": "apps-design", 
+    "id": "apps-design-6", 
     "title": "Chatbot Apps UI/UX Design", 
     "description": "Smart and simple UI/UX for a chatbot app, enabling smooth conversations and quick user support.", 
     "category": "apps-design",
@@ -124,7 +124,7 @@ export const portfolioItems: PortfolioItem[] = [
     ]
   },
   {
-    "id": "apps-design", 
+    "id": "apps-design-7", 
     "title": "Fitness Tracking Apps UI/UX Design", 
     "description": "Clean UI/UX for a fitness app with workout tracking, progress monitoring, and goal setting.", 
     "category": "apps-design",
@@ -142,193 +142,13 @@ export const portfolioItems: PortfolioItem[] = [
     ]
   },
   {
-    "id": "apps-design", 
+    "id": "apps-design-8", 
     "title": "Mental Health Apps UI/UX Design", 
     "description": "Calm and thoughtful UI/UX for a mental health app, supporting mood tracking, journaling, and guided sessions.", 
     "category": "apps-design",
     "highlightKeyword": "Mental Health Apps", 
     "image": "/design/app-design-8.png", 
     "technologies": ["Figma", "Figjam", "Photoshop", "Google Doc"], 
-    "demoUrl": "https://example.com/demo",
-    "githubUrl": "https://github.com/example/project",
-    "completionDate": "September 2023",
-    "features": [
-      "Multi-source data aggregation",
-      "Historical weather data analysis",
-      "Forecast prediction algorithms",
-      "Geolocation-based queries"
-    ]
-  },
-  {
-    "id": "branding-1", 
-    "title": "Divo Branding – Bold Identity Design", 
-    "description": "Creative and cohesive branding for Divo, featuring a bold visual identity, modern typography, and versatile logo applications across digital and print.", 
-    "category": "branding",
-    "highlightKeyword": "Logo Design", 
-    "image": "/design/branding-1.png", 
-    "technologies": ["Illustrator", "Google Doc"], 
-    "demoUrl": "https://example.com/demo",
-    "githubUrl": "https://github.com/example/project",
-    "completionDate": "September 2023",
-    "features": [
-      "Multi-source data aggregation",
-      "Historical weather data analysis",
-      "Forecast prediction algorithms",
-      "Geolocation-based queries"
-    ]
-  },
-  {
-    "id": "branding-2", 
-    "title": "FifthSip Coffee Shop – Warm & Inviting Branding", 
-    "description": "Charming and cozy branding for FifthSip Coffee Shop, featuring a warm color palette, hand-crafted logo, and a welcoming atmosphere for coffee lovers.", 
-    "category": "branding",
-    "highlightKeyword": "Logo Design", 
-    "image": "/design/branding-2.png", 
-    "technologies": ["Illustrator", "Google Doc"], 
-    "demoUrl": "https://example.com/demo",
-    "githubUrl": "https://github.com/example/project",
-    "completionDate": "September 2023",
-    "features": [
-      "Multi-source data aggregation",
-      "Historical weather data analysis",
-      "Forecast prediction algorithms",
-      "Geolocation-based queries"
-    ]
-  },
-  {
-    "id": "branding-3", 
-    "title": "NTREX AI Connection – Cutting-Edge AI Solutions", 
-    "description": "Innovative and powerful branding for NTREX AI Connection, showcasing advanced AI-driven technologies that connect businesses with intelligent automation and data insights.", 
-    "category": "branding",
-    "highlightKeyword": "Brand Guideline", 
-    "image": "/design/branding-3.png", 
-    "technologies": ["Illustrator", "Google Doc"], 
-    "demoUrl": "https://example.com/demo",
-    "githubUrl": "https://github.com/example/project",
-    "completionDate": "September 2023",
-    "features": [
-      "Multi-source data aggregation",
-      "Historical weather data analysis",
-      "Forecast prediction algorithms",
-      "Geolocation-based queries"
-    ]
-  },
-  {
-    "id": "branding-4", 
-    "title": "Matrixa Health – Empowering Wellness through Technology", 
-    "description": "Modern and sleek branding for Matrixa Health, blending technology with wellness to provide innovative health solutions, personalized care, and real-time health monitoring.", 
-    "category": "branding",
-    "highlightKeyword": "Medical Logo", 
-    "image": "/design/branding-4.png", 
-    "technologies": ["Illustrator", "Google Doc"], 
-    "demoUrl": "https://example.com/demo",
-    "githubUrl": "https://github.com/example/project",
-    "completionDate": "September 2023",
-    "features": [
-      "Multi-source data aggregation",
-      "Historical weather data analysis",
-      "Forecast prediction algorithms",
-      "Geolocation-based queries"
-    ]
-  },
-  {
-    "id": "email-template-1", 
-    "title": "Helping Australia – Supportive Email Template", 
-    "description": "A simple and impactful email template for Helping Australia, designed to engage and inspire support for local causes.", 
-    "category": "email-template",
-    "highlightKeyword": "Sass Email Template", 
-    "image": "/design/email-template-1.png", 
-    "technologies": ["Figma", "Illustrator", "Photoshop", "Google Doc"], 
-    "demoUrl": "https://example.com/demo",
-    "githubUrl": "https://github.com/example/project",
-    "completionDate": "September 2023",
-    "features": [
-      "Multi-source data aggregation",
-      "Historical weather data analysis",
-      "Forecast prediction algorithms",
-      "Geolocation-based queries"
-    ]
-  },
-  {
-    "id": "email-template-2", 
-    "title": "HR Email Template – Streamlining Communication", 
-    "description": "A polished and efficient HR email template designed to simplify recruitment, onboarding, and employee updates.", 
-    "category": "email-template",
-    "highlightKeyword": "HR Email Template", 
-    "image": "/design/email-template-2.png", 
-    "technologies": ["Figma", "Illustrator", "Photoshop", "Google Doc"], 
-    "demoUrl": "https://example.com/demo",
-    "githubUrl": "https://github.com/example/project",
-    "completionDate": "September 2023",
-    "features": [
-      "Multi-source data aggregation",
-      "Historical weather data analysis",
-      "Forecast prediction algorithms",
-      "Geolocation-based queries"
-    ]
-  },
-  {
-    "id": "email-template-3", 
-    "title": "Event Management Email Template", 
-    "description": "A professional and engaging email template for event management, designed to streamline communication, invite attendees, and manage event details.", 
-    "category": "email-template",
-    "highlightKeyword": "Event Management", 
-    "image": "/design/email-template-3.png", 
-    "technologies": ["Figma", "Illustrator", "Photoshop", "Google Doc"], 
-    "demoUrl": "https://example.com/demo",
-    "githubUrl": "https://github.com/example/project",
-    "completionDate": "September 2023",
-    "features": [
-      "Multi-source data aggregation",
-      "Historical weather data analysis",
-      "Forecast prediction algorithms",
-      "Geolocation-based queries"
-    ]
-  },
-  {
-    "id": "email-template-4", 
-    "title": "Yoga Email Template – Tranquil and Inviting", 
-    "description": "A calming and welcoming email template for yoga studios, designed to promote classes, events, and wellness tips with a peaceful tone.", 
-    "category": "email-template",
-    "highlightKeyword": "Yoga", 
-    "image": "/design/email-template-4.png", 
-    "technologies": ["Figma", "Illustrator", "Photoshop", "Google Doc"], 
-    "demoUrl": "https://example.com/demo",
-    "githubUrl": "https://github.com/example/project",
-    "completionDate": "September 2023",
-    "features": [
-      "Multi-source data aggregation",
-      "Historical weather data analysis",
-      "Forecast prediction algorithms",
-      "Geolocation-based queries"
-    ]
-  },
-  {
-    "id": "email-template-5", 
-    "title": "Community Email Template – Building Connections", 
-    "description": "A warm and engaging email template designed to foster communication, promote local events, and strengthen community bonds.", 
-    "category": "email-template",
-    "highlightKeyword": "Community", 
-    "image": "/design/email-template-5.png", 
-    "technologies": ["Figma", "Illustrator", "Photoshop", "Google Doc"], 
-    "demoUrl": "https://example.com/demo",
-    "githubUrl": "https://github.com/example/project",
-    "completionDate": "September 2023",
-    "features": [
-      "Multi-source data aggregation",
-      "Historical weather data analysis",
-      "Forecast prediction algorithms",
-      "Geolocation-based queries"
-    ]
-  },
-  {
-    "id": "email-template-6", 
-    "title": "Blink Email Build – Fast and Effective Communication", 
-    "description": "A sleek and responsive email template for Blink, designed to deliver quick updates, announcements, and notifications with ease.", 
-    "category": "email-template",
-    "highlightKeyword": "Email Build", 
-    "image": "/design/email-template-6.png", 
-    "technologies": ["Figma", "Illustrator", "Photoshop", "Google Doc"], 
     "demoUrl": "https://example.com/demo",
     "githubUrl": "https://github.com/example/project",
     "completionDate": "September 2023",
@@ -626,7 +446,188 @@ export const portfolioItems: PortfolioItem[] = [
       "Forecast prediction algorithms",
       "Geolocation-based queries"
     ]
-  }
+  },
+  {
+    "id": "branding-1", 
+    "title": "Divo Branding – Bold Identity Design", 
+    "description": "Creative and cohesive branding for Divo, featuring a bold visual identity, modern typography, and versatile logo applications across digital and print.", 
+    "category": "branding",
+    "highlightKeyword": "Logo Design", 
+    "image": "/design/branding-1.png", 
+    "technologies": ["Illustrator", "Google Doc"], 
+    "demoUrl": "https://example.com/demo",
+    "githubUrl": "https://github.com/example/project",
+    "completionDate": "September 2023",
+    "features": [
+      "Multi-source data aggregation",
+      "Historical weather data analysis",
+      "Forecast prediction algorithms",
+      "Geolocation-based queries"
+    ]
+  },
+  {
+    "id": "branding-2", 
+    "title": "FifthSip Coffee Shop – Warm & Inviting Branding", 
+    "description": "Charming and cozy branding for FifthSip Coffee Shop, featuring a warm color palette, hand-crafted logo, and a welcoming atmosphere for coffee lovers.", 
+    "category": "branding",
+    "highlightKeyword": "Logo Design", 
+    "image": "/design/branding-2.png", 
+    "technologies": ["Illustrator", "Google Doc"], 
+    "demoUrl": "https://example.com/demo",
+    "githubUrl": "https://github.com/example/project",
+    "completionDate": "September 2023",
+    "features": [
+      "Multi-source data aggregation",
+      "Historical weather data analysis",
+      "Forecast prediction algorithms",
+      "Geolocation-based queries"
+    ]
+  },
+  {
+    "id": "branding-3", 
+    "title": "NTREX AI Connection – Cutting-Edge AI Solutions", 
+    "description": "Innovative and powerful branding for NTREX AI Connection, showcasing advanced AI-driven technologies that connect businesses with intelligent automation and data insights.", 
+    "category": "branding",
+    "highlightKeyword": "Brand Guideline", 
+    "image": "/design/branding-3.png", 
+    "technologies": ["Illustrator", "Google Doc"], 
+    "demoUrl": "https://example.com/demo",
+    "githubUrl": "https://github.com/example/project",
+    "completionDate": "September 2023",
+    "features": [
+      "Multi-source data aggregation",
+      "Historical weather data analysis",
+      "Forecast prediction algorithms",
+      "Geolocation-based queries"
+    ]
+  },
+  {
+    "id": "branding-4", 
+    "title": "Matrixa Health – Empowering Wellness through Technology", 
+    "description": "Modern and sleek branding for Matrixa Health, blending technology with wellness to provide innovative health solutions, personalized care, and real-time health monitoring.", 
+    "category": "branding",
+    "highlightKeyword": "Medical Logo", 
+    "image": "/design/branding-4.png", 
+    "technologies": ["Illustrator", "Google Doc"], 
+    "demoUrl": "https://example.com/demo",
+    "githubUrl": "https://github.com/example/project",
+    "completionDate": "September 2023",
+    "features": [
+      "Multi-source data aggregation",
+      "Historical weather data analysis",
+      "Forecast prediction algorithms",
+      "Geolocation-based queries"
+    ]
+  },
+  {
+    "id": "email-template-1", 
+    "title": "Helping Australia – Supportive Email Template", 
+    "description": "A simple and impactful email template for Helping Australia, designed to engage and inspire support for local causes.", 
+    "category": "email-template",
+    "highlightKeyword": "Sass Email Template", 
+    "image": "/design/email-template-1.png", 
+    "technologies": ["Figma", "Illustrator", "Photoshop", "Google Doc"], 
+    "demoUrl": "https://example.com/demo",
+    "githubUrl": "https://github.com/example/project",
+    "completionDate": "September 2023",
+    "features": [
+      "Multi-source data aggregation",
+      "Historical weather data analysis",
+      "Forecast prediction algorithms",
+      "Geolocation-based queries"
+    ]
+  },
+  {
+    "id": "email-template-2", 
+    "title": "HR Email Template – Streamlining Communication", 
+    "description": "A polished and efficient HR email template designed to simplify recruitment, onboarding, and employee updates.", 
+    "category": "email-template",
+    "highlightKeyword": "HR Email Template", 
+    "image": "/design/email-template-2.png", 
+    "technologies": ["Figma", "Illustrator", "Photoshop", "Google Doc"], 
+    "demoUrl": "https://example.com/demo",
+    "githubUrl": "https://github.com/example/project",
+    "completionDate": "September 2023",
+    "features": [
+      "Multi-source data aggregation",
+      "Historical weather data analysis",
+      "Forecast prediction algorithms",
+      "Geolocation-based queries"
+    ]
+  },
+  {
+    "id": "email-template-3", 
+    "title": "Event Management Email Template", 
+    "description": "A professional and engaging email template for event management, designed to streamline communication, invite attendees, and manage event details.", 
+    "category": "email-template",
+    "highlightKeyword": "Event Management", 
+    "image": "/design/email-template-3.png", 
+    "technologies": ["Figma", "Illustrator", "Photoshop", "Google Doc"], 
+    "demoUrl": "https://example.com/demo",
+    "githubUrl": "https://github.com/example/project",
+    "completionDate": "September 2023",
+    "features": [
+      "Multi-source data aggregation",
+      "Historical weather data analysis",
+      "Forecast prediction algorithms",
+      "Geolocation-based queries"
+    ]
+  },
+  {
+    "id": "email-template-4", 
+    "title": "Yoga Email Template – Tranquil and Inviting", 
+    "description": "A calming and welcoming email template for yoga studios, designed to promote classes, events, and wellness tips with a peaceful tone.", 
+    "category": "email-template",
+    "highlightKeyword": "Yoga", 
+    "image": "/design/email-template-4.png", 
+    "technologies": ["Figma", "Illustrator", "Photoshop", "Google Doc"], 
+    "demoUrl": "https://example.com/demo",
+    "githubUrl": "https://github.com/example/project",
+    "completionDate": "September 2023",
+    "features": [
+      "Multi-source data aggregation",
+      "Historical weather data analysis",
+      "Forecast prediction algorithms",
+      "Geolocation-based queries"
+    ]
+  },
+  {
+    "id": "email-template-5", 
+    "title": "Community Email Template – Building Connections", 
+    "description": "A warm and engaging email template designed to foster communication, promote local events, and strengthen community bonds.", 
+    "category": "email-template",
+    "highlightKeyword": "Community", 
+    "image": "/design/email-template-5.png", 
+    "technologies": ["Figma", "Illustrator", "Photoshop", "Google Doc"], 
+    "demoUrl": "https://example.com/demo",
+    "githubUrl": "https://github.com/example/project",
+    "completionDate": "September 2023",
+    "features": [
+      "Multi-source data aggregation",
+      "Historical weather data analysis",
+      "Forecast prediction algorithms",
+      "Geolocation-based queries"
+    ]
+  },
+  {
+    "id": "email-template-6", 
+    "title": "Blink Email Build – Fast and Effective Communication", 
+    "description": "A sleek and responsive email template for Blink, designed to deliver quick updates, announcements, and notifications with ease.", 
+    "category": "email-template",
+    "highlightKeyword": "Email Build", 
+    "image": "/design/email-template-6.png", 
+    "technologies": ["Figma", "Illustrator", "Photoshop", "Google Doc"], 
+    "demoUrl": "https://example.com/demo",
+    "githubUrl": "https://github.com/example/project",
+    "completionDate": "September 2023",
+    "features": [
+      "Multi-source data aggregation",
+      "Historical weather data analysis",
+      "Forecast prediction algorithms",
+      "Geolocation-based queries"
+    ]
+  },
+  
 ]
 
 
