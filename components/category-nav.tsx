@@ -3,7 +3,7 @@
 import { cn } from "@/lib/utils"
 
 const categories = [
-  { id: "backend-api", label: "Backend & API" },
+  { id: "apps-design", label: "Apps Design" },
   { id: "mobile", label: "Mobile App" },
   { id: "frontend", label: "Frontend" },
   { id: "nocode", label: "No Code Solutions" },
