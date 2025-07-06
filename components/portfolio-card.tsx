@@ -18,16 +18,14 @@ export default function PortfolioCard({
 }: PortfolioCardProps) {
   const getCategoryColor = (category: string) => {
     switch (category) {
-      case "backend":
+      case "apps-design":
         return "bg-emerald-500";
-      case "mobile":
+      case "web-design":
         return "bg-purple-500";
-      case "frontend":
+      case "branding":
         return "bg-rose-500";
-      case "nocode":
+      case "email-template":
         return "bg-amber-500";
-      case "api":
-        return "bg-cyan-500";
       default:
         return "bg-gray-500";
     }
@@ -35,16 +33,14 @@ export default function PortfolioCard({
 
   const getCategoryGradient = (category: string) => {
     switch (category) {
-      case "backend":
+      case "apps-design":
         return "from-emerald-400 to-teal-600";
-      case "mobile":
+      case "web-design":
         return "from-purple-400 to-indigo-600";
-      case "frontend":
+      case "branding":
         return "from-rose-400 to-pink-600";
-      case "nocode":
+      case "email-template":
         return "from-amber-400 to-orange-600";
-      case "api":
-        return "from-cyan-400 to-blue-600";
       default:
         return "from-gray-400 to-gray-600";
     }
@@ -73,11 +69,11 @@ export default function PortfolioCard({
             alt={item.title}
             width={600}
             height={400}
-            className="w-full h-96 object-cover"
+            className="w-full h-48 md:h-64 lg:h-80 object-cover"
           />
           <span
             className={cn(
-              "absolute top-4 left-4 text-white px-3 py-1 rounded-full text-sm font-medium",
+              "absolute top-3 left-3 text-white px-2 py-1 md:px-3 md:py-1 rounded-full text-xs md:text-sm font-medium",
               getCategoryColor(item.category)
             )}
           >
@@ -85,13 +81,13 @@ export default function PortfolioCard({
           </span>
         </div>
 
-        <div className="p-6">
+        <div className="p-4 md:p-6">
           <p className="block">
-            <h3 className="text-xl font-bold mb-2">{item.title}</h3>{" "}
+            <h3 className="text-lg md:text-xl font-bold mb-2 line-clamp-2">{item.title}</h3>{" "}
           </p>
-          <p className="text-gray-600 mb-4 line-clamp-2">{item.description}</p>
-          <div className="flex flex-wrap gap-2 mb-6">
-            {item.technologies.map((tech, index) => (
+          <p className="text-gray-600 mb-4 line-clamp-3 text-sm md:text-base">{item.description}</p>
+          <div className="flex flex-wrap gap-1 md:gap-2 mb-4 md:mb-6">
+            {item.technologies.slice(0, 3).map((tech, index) => (
               <span
                 key={index}
                 className="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs font-medium"
@@ -99,6 +95,11 @@ export default function PortfolioCard({
                 {tech}
               </span>
             ))}
+            {item.technologies.length > 3 && (
+              <span className="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs font-medium">
+                +{item.technologies.length - 3} more
+              </span>
+            )}
           </div>
         </div>
 

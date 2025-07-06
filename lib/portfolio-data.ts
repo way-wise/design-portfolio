@@ -636,6 +636,10 @@ export const sectionInfo = {
     "title": "Apps Design",
     "description": "Explore my apps design projects with a focus on user experience and design."
   },
+  "web-design": {
+    "title": "Web Design",
+    "description": "Discover my web design projects showcasing modern, responsive websites and digital experiences."
+  },
   "branding": {
     "title": "Branding",
     "description": "Discover my branding projects with a range of features and capabilities."
