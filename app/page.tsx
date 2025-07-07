@@ -128,7 +128,7 @@ export default function Home() {
           className="py-16 md:py-24 lg:py-32 px-4 bg-white border-b-4 border-gray-200 last:border-0"
           id={`section-${category}`}
         >
-          <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16">
+          <div className="px-4 md:px-8 lg:px-16">
             <div className="flex flex-col items-center gap-2 md:gap-4 pb-12 md:pb-16 lg:pb-20">
               <h2 className="text-2xl md:text-4xl lg:text-5xl text-gray-900 font-semibold text-center capitalize">
                 {sectionInfo[category as SectionKey]?.title ||
