@@ -92,7 +92,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-12">
             <div className="flex-1 max-w-[600px]">
               <h1 className="text-5xl md:text-6xl font-bold mb-6">
-                  We Design products <br /> That Drive Results
+                  We Design products That Drive Results
               </h1>
               <p className="text-xl text-gray-600 mb-8">
                   Creating user-first experiences that boost engagement, retention, and growth.
