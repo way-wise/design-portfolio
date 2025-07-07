@@ -87,16 +87,15 @@ export default function Home() {
         onCategoryChange={handleCategoryChange}
       />
 
-      <section className="flex flex-col items-center justify-center min-h-[60vh] bg-purple-50">
+      <section className="flex flex-col items-center justify-center min-h-[80vh] bg-purple-50">
         <div className="container mx-auto px-4 md:px-16">
           <div className="flex flex-col md:flex-row items-center justify-between gap-12">
             <div className="flex-1 max-w-[600px]">
               <h1 className="text-5xl md:text-6xl font-bold mb-6">
-                Software Consulting and Development
+                  We Design products <br /> That Drive Results
               </h1>
               <p className="text-xl text-gray-600 mb-8">
-                We help companies create innovative digital solutions and
-                transform their brands for the modern age.
+                  Creating user-first experiences that boost engagement, retention, and growth.
               </p>
               <a
                 href="#section-wordpress"
