@@ -98,7 +98,7 @@ export default function Home() {
                   Creating user-first experiences that boost engagement, retention, and growth.
               </p>
               <a
-                href="#section-wordpress"
+                href="#section-apps-design"
                 className="inline-block bg-orange-600 text-white px-8 py-3 rounded-lg hover:bg-orange-700 transition-colors"
               >
                 View Our Work
